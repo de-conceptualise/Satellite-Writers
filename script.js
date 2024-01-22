@@ -1,3 +1,6 @@
+// Initialize arena with your access token if necessary
+// const arena = new Arena({ accessToken: 'YOUR_ACCESS_TOKEN' });
+
 // Example code to fetch and display channel content
 arena.channel("your-channel-slug").contents()
     .then(contents => {
