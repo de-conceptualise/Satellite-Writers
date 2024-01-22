@@ -2,7 +2,7 @@
 // const arena = new Arena({ accessToken: 'YOUR_ACCESS_TOKEN' });
 
 // Example code to fetch and display channel content
-arena.channel("your-channel-slug").contents()
+arena.channel("satellite-writers").contents()
     .then(contents => {
         document.getElementById('channel-title').innerText = "Your Channel Title"; // Replace with actual channel title
         const channelContent = document.getElementById('channel-content');
